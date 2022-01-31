@@ -131,7 +131,6 @@ img {
   letter-spacing: 0.4px;
   color: #fff;
   text-shadow: inherit;
-  -webkit-text-fill-color: inherit;
 }
 
 .Searchbar-submitInput {
@@ -166,11 +165,6 @@ img {
 .ProfileNavbar-item {
   position: relative;
   top: 2px;
-  display: inline-block;
-}
-
-.NavbarNotifications > * {
-  margin: 0 5px;
   display: inline-block;
 }
 
@@ -593,21 +587,19 @@ img {
 }
 
 #dropDown {
-  margin-top: -14px;
-  margin-left: 25.6rem;
-  width: 40.65%;
-  border-radius: 0 0 5px 5px;
-  background: hsla(0, 0%, 100%, 0.25);
-  outline: 0 none;
+  margin-top: -10px;
+  margin-left: 25.9rem;
+  width: 40.85%;
+  border-radius:5px;
+  background: #3c424b;
   font-size: 16px;
   font-weight: 500;
   color: white;
   cursor: pointer;
-  /* padding-bottom: 8px; */
 }
 
+
 .searchDiv {
-  /* margin-bottom: 10px; */
   padding: 5px;
   margin-left: 5px;
   margin-right: 5px;
@@ -618,5 +610,11 @@ img {
 } */
 
 .searchDiv:hover {
-  background-color: #aed8ea;
+  background-color: #7d888d;
+  border-radius: 4px;
+}
+
+#search-value::placeholder{
+  color: #b4b9c2;
+  font-weight: 400;
 }
