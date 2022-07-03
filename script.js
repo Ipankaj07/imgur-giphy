@@ -180,7 +180,7 @@ const getValue = async (query) => {
 
     try {
 
-        let res = await fetch(`https://giphy.p.rapidapi.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q=${query}&limit=5`, {
+        let res = await fetch(`https://giphy.p.rapidapi.com/v1/gifs/search?api_key=SOc2GyQ7rK9nRUE90XVZudwEznWtpKFA&q=${query}&limit=5`, {
             "method": "GET",
             "headers": {
                 "x-rapidapi-host": "giphy.p.rapidapi.com",
