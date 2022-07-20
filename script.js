@@ -79,7 +79,7 @@ function showData(data) {
     masonry.innerHTML = null;
     data.forEach((e) => {
         //   console.log(e.images.original.url)
-        console.log(e.title)
+        // console.log(e.title)
         let item = document.createElement("div")
         item.setAttribute("class", "item")
 
@@ -217,7 +217,7 @@ function displayDropDown(data) {
         searchDiv.onclick = () => {
             dropDown.innerHTML = null;
             let query = searchTitle.textContent;
-            console.log(query);
+            // console.log(query);
             GetimgData(query);
         }
         searchDiv.append(searchTitle);
